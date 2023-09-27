@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout Git') {
             steps {
                 script {
-                    git branch: 'master', url: "https://github.com/Balkissgh/Balkiss-devops"
+                    git branch: 'main', url: "https://github.com/Balkissgh/Balkiss-devops"
                     sh "echo 'hello'"
                 }
             }

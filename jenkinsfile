@@ -5,7 +5,7 @@ pipeline {
                 steps{
                     git brach: 'main',
                     url: "https://github.com/Balkissgh/Balkiss-devops"
-                    sh "mvn -version"
+                    sh "heelllllloooo"
                 }
         }
 }

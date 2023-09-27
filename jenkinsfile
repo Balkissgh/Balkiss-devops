@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     git branch: 'main', url: "https://github.com/Balkissgh/Balkiss-devops.com"
-                    sh "echo 'hello'"
+                    sh "echo 'hello' " 
                      
                 }
             }

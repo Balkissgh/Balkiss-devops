@@ -1,8 +1,10 @@
 pipeline {
         agent any
         stages{
-            stage('Testing Maven')
+            stage('Checkout Git')
                 steps{
+                    git brach: 'main',
+                    url: "https://github.com/Balkissgh/Balkiss-devops"
                     sh "mvn -version"
                 }
         }

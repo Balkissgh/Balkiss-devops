@@ -4,11 +4,13 @@ pipeline {
         stage('Checkout Git') {
             steps {
                 script {
-                    git branch: 'main', url: "https://github.com/Balkissgh/Balkiss-devops.com"
-                    sh "echo 'hello' "  
-                     
+                    git branch: 'main',
+                      url: 'https://github.com/Balkissgh/Balkiss-devops.com',
+                      credentialsId: 'devops-classe-git',
+                    sh "echo 'hello'" 
                 }
             }
         }
     }
 }
+

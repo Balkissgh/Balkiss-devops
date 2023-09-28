@@ -7,7 +7,7 @@ pipeline {
                     git branch: 'main',
                       url: 'https://github.com/Balkissgh/Balkiss-devops.com',
                       credentialsId: 'devops-classe-git',
-                    sh "echo 'hello'" 
+
                 }
             }
         }

@@ -11,7 +11,7 @@ pipeline {
                 }
             }
         }
-        stage('Afficher date systeme') {
+        stage('Afficher date systeme') { 
             steps {
             sh 'date'
                  }

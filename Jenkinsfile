@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     git branch: 'main',
-                      url: 'https://github.com/Balkissgh/Balkiss-devops.git',
+                      url: 'https://github.com/Balkissgh/Balkiss-devops.git', 
                       credentialsId: 'devops-classe-git'    
 
                 }
